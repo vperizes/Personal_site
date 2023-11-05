@@ -79,6 +79,7 @@ p{
 .project-img{
     display: flex;
     align-self: center;
+    border-radius: 10px;
 }
 
 .features-list{
@@ -88,4 +89,6 @@ p{
 .badge{
     background-color: #116D6E;
 }
+
+
 
