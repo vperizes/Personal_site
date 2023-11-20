@@ -1,5 +1,7 @@
 body{
-    background-color: #025464;
+    background-color: #040014;
+    position: relative;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
 }
 
 #navbar{
@@ -56,6 +58,7 @@ p{
 .profile-img{
     height: 450px;
     border-radius: 5%;
+    margin: auto 0;;
 }
 
 .about{
@@ -80,6 +83,7 @@ p{
     display: flex;
     align-self: center;
     border-radius: 10px;
+    border: 1px #E8AA42 solid;
 }
 
 .features-list{
