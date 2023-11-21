@@ -10,16 +10,6 @@ body{
     font-size: 20px;
 }
 
-#intro{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-}
-
-.name{
-    margin: 0;
-}
 
 h1,h3{
     color: #E57C23;
