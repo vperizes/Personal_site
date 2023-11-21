@@ -21,7 +21,6 @@ body{
     margin: 0;
 }
 
-
 h1,h3{
     color: #E57C23;
     font-family: 'Raleway', sans-serif;
@@ -64,8 +63,6 @@ p{
 .about{
     padding-bottom: 20px;
     margin: 0;
-    box-shadow: 20px 20px 10px #116D6E;
-    border-radius: 25px;
 }
 
 .projects-btn{
