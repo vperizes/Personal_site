@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header id="navbar">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid mt-2">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col-lg justify-content-lg-center">
+              <li class="nav-item px-4">
+                <a class="nav-link tags" aria-current="page" href="./index.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link tags" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item px-4">
+                <a
+                  class="nav-link tags"
+                  href="https://github.com/vperizes"
+                  target="_blank"
+                  >Github</a
+                >
+              </li>
+              <li class="nav-item px-4">
+                <a
+                  class="nav-link tags"
+                  href="../public/assets/VPerizes_Resume2023.pdf"
+                  target="_blank"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Project Carousel -->
+    <section id="project-carousel">
+      <!-- project 1 -->
+      <div class="row featurette container-fluid px-5 py-3 mt-5">
+        <div class="col-lg-6 order-lg-1">
+          <h2>
+            Cook Your Kitchen
+            <a
+              href="https://cookyourkitchen.onrender.com/"
+              class="tags"
+              target="_blank"
+            >
+              <img
+                src="../public/assets/arrow-up-right.svg"
+                alt="right arrow up"
+                class="right-arrow-project"
+            /></a>
+            <a
+              href="https://github.com/vperizes/CookYourKitchen_app"
+              target="_blank"
+              ><img
+                src="../public/assets/github-svgrepo-com.svg"
+                alt="git hub repo"
+                class="tags github-img"
+            /></a>
+          </h2>
+
+          <p class="lead">
+            Cook Your Kitchen is a recipe finder web app enabled by Edamam’s
+            Recipe Search API. Have random ingredients in your kitchen that you
+            want to cook? Search for those ingredients and get recipes.
+            <em
+              >Hosted on render.com - note that initial spin up may take longer
+              than usual.</em
+            >
+          </p>
+          <p class="lead">Features list:</p>
+          <ul class="lead features-list">
+            <li>Utlizes Edamam's api</li>
+            <li>Utlizes AJAX</li>
+            <li>Demonstrates routing and api knowledge</li>
+          </ul>
+
+          <div class="d-flex gap-2 order-lg-2">
+            <span class="badge rounded-pill">NodeJS</span>
+            <span class="badge rounded-pill">Express</span>
+            <span class="badge rounded-pill">Javascript/JQuery</span>
+            <span class="badge rounded-pill">Bootstrap</span>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2 p-3">
+          <img
+            src="../public/assets/CookYourKitchen_searchreturn.png"
+            alt="farm feeder gameplay gif"
+            class="d-block img-fluid mx-lg-auto project-img"
+          />
+        </div>
+      </div>
+      <!-- project 2 -->
+      <div class="row featurette container-fluid px-5 py-3 mt-5">
+        <div class="col-lg-6 order-lg-1">
+          <h2>
+            Daily ToDo
+            <a
+              href="daily-todo-nnlg.onrender.com/"
+              class="tags"
+              target="_blank"
+            >
+              <img
+                src="../public/assets/arrow-up-right.svg"
+                alt="right arrow up"
+                class="right-arrow-project"
+            /></a>
+            <a href="https://github.com/vperizes/Todolist_App" target="_blank">
+              <img
+                src="../public/assets/github-svgrepo-com.svg"
+                alt="git hub repo"
+                class="tags github-img"
+              />
+            </a>
+          </h2>
+
+          <p class="lead">
+            Basic todo list web app that uses MongoDB to persist data entries
+            (todo items).
+            <em
+              >Hosted on render.com - note that initial spin up may take longer
+              than usual.</em
+            >
+          </p>
+          <p class="lead">Features list:</p>
+          <ul class="lead features-list">
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+
+          <div class="d-flex gap-2 order-lg-2">
+            <span class="badge rounded-pill">MongoDB</span>
+            <span class="badge rounded-pill">NodeJS</span>
+            <span class="badge rounded-pill">Express</span>
+            <span class="badge rounded-pill">Javascript/JQuery</span>
+            <span class="badge rounded-pill">Bootstrap</span>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2 p-3">
+          <img
+            src="../public/assets/TodoListApp_1.png"
+            alt="ToDo list app"
+            class="d-block img-fluid mx-lg-auto project-img"
+          />
+        </div>
+      </div>
+      <!-- project 3 -->
+      <div class="row featurette container-fluid px-5 py-3 mt-5">
+        <div class="col-lg-6 order-lg-1">
+          <h2>
+            Farm Feeder
+            <a
+              href="https://its-vp.itch.io/farm-feeder"
+              class="tags"
+              target="_blank"
+            >
+              <img
+                src="../public/assets/arrow-up-right.svg"
+                alt="right arrow up"
+                class="right-arrow-project"
+              />
+            </a>
+            <a
+              href="https://github.com/vperizes/Prototype2-FarmFeeder"
+              target="_blank"
+            >
+              <img
+                src="../public/assets/github-svgrepo-com.svg"
+                alt="git hub repo"
+                class="tags github-img"
+              />
+            </a>
+          </h2>
+
+          <p class="lead">
+            Farm Feeder is a simple third person shooter. Based off of Unity's
+            "Prototype 2" project from their Junior Programmer Pathway. This
+            version has added features outside of the unity directions.
+          </p>
+          <p class="lead">Features list:</p>
+          <ul class="lead features-list">
+            <li>Main menu: choose difficulty</li>
+            <li>Score and Lives UI</li>
+            <li>Projectile object pooling for performance</li>
+            <li>Pause menu: allows you to return to main menu</li>
+            <li>Game over: restart level or return to Main menu</li>
+          </ul>
+          <div class="d-flex gap-2 order-lg-2">
+            <span class="badge rounded-pill">NodeJS</span>
+            <span class="badge rounded-pill">Express</span>
+            <span class="badge rounded-pill">Javascript/JQuery</span>
+            <span class="badge rounded-pill">Bootstrap</span>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2 p-3">
+          <img
+            src="../public/assets/farmfeeder_gif.gif"
+            alt="farm feeder gameplay gif"
+            class="d-block img-fluid mx-lg-auto project-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
