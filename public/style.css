@@ -49,9 +49,8 @@ p{
 }
 
 .profile-img{
-    height: 450px;
+    max-height: 500px;
     border-radius: 5%;
-    margin: auto 0;;
 }
 
 .about{
@@ -60,9 +59,16 @@ p{
 }
 
 .projects-btn{
-    color: #E57C23;
+    color: #E8AA42;
+    border-color: #E8AA42;
+    background-color: #040014;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+}
+
+.projects-btn:hover{
+    color: #E57C23;
+    border-color: #E57C23;
 }
 
 .right-arrow-project{
